@@ -1,0 +1,43 @@
+footer {
+  padding: 60px 0px;
+  background-color: $hero-bcg;
+
+  & .container {
+    display: flex;
+    align-items: center;
+  }
+
+  & a {
+    color: var(--accent-color);
+  }
+
+  & .footer-contacts {
+    color: var(--contact-color);
+  }
+  & span {
+    display: inline-block;
+  }
+
+  & .link-footer.link {
+    display: inline-block;
+    margin-top: 9px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+}
+.link-footer.link:hover,
+.link-footer.link:focus {
+  color: $accent-color;
+}
+footer span,
+b {
+  color: $bcg-color;
+}
+.footer-container .logo {
+  color: $bcg-color;
+}

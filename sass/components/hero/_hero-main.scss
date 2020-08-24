@@ -1,0 +1,20 @@
+.hero {
+  max-width: 1600px;
+  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
+
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 40%),
+      rgba(47, 48, 58, 40%)
+    ),
+    url(../img/Hero.jpg);
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: $hero-bcg;
+}
