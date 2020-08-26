@@ -25,7 +25,7 @@ svg {
   line-height: 1.14;
   letter-spacing: 0.02em;
   font-weight: 500;
-  transition: color var(--timing) cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color $timing cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
     color: $accent-color;
@@ -35,4 +35,12 @@ svg {
 .current {
   color: $accent-color;
   opacity: 1;
+}
+
+b {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $bcg-color;
 }

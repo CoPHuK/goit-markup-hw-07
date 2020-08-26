@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
 
-  & .item:not(:last-child) {
+  .item:not(:last-child) {
     margin-right: 50px;
   }
 
-  & .link {
+  .link {
     padding: 10px 0px;
   }
 }

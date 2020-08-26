@@ -12,14 +12,17 @@
   height: 70px;
 }
 
-.skills-item h3 {
-  padding-top: 30px;
-  color: $title-text-color;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+.skills-item {
+  width: 270px;
   &:not(:last-child) {
     margin-right: 30px;
+  }
+  h3 {
+    padding-top: 30px;
+    color: $title-text-color;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
   }
 }

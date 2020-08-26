@@ -2,7 +2,7 @@
 .phone {
   fill: $color3;
   margin-right: 10px;
-  transition: fill var(--timing) cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill $timing cubic-bezier(0.4, 0, 0.2, 1);
   .link-contact:hover &,
   .link-contact:focus & {
     fill: $accent-color;

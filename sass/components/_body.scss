@@ -1,6 +1,6 @@
 body {
-  background-color: var(--bcg-color);
-  color: var(--main-color);
+  background-color: $bcg-color;
+  color: $main-color;
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;

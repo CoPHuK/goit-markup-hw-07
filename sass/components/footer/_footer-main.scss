@@ -1,43 +1,39 @@
 footer {
   padding: 60px 0px;
   background-color: $hero-bcg;
+  span {
+    color: $bcg-color;
+  }
 
-  & .container {
+  .container {
     display: flex;
     align-items: center;
   }
 
-  & a {
-    color: var(--accent-color);
+  a {
+    color: $accent-color;
   }
 
-  & .footer-contacts {
-    color: var(--contact-color);
+  .footer-contacts {
+    color: $contact-color;
   }
-  & span {
+  span {
     display: inline-block;
   }
-
-  & .link-footer.link {
-    display: inline-block;
-    margin-top: 9px;
-    color: rgba(255, 255, 255, 0.6);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+  .social-svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    transition: fill var(--timing) cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-.link-footer.link:hover,
-.link-footer.link:focus {
-  color: $accent-color;
-}
-footer span,
-b {
-  color: $bcg-color;
+address {
+  margin-top: 20px;
 }
 .footer-container .logo {
   color: $bcg-color;
+}
+.subscription {
+  display: flex;
+  align-items: flex-end;
 }
