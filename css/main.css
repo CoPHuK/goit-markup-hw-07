@@ -224,8 +224,6 @@ header .container {
   height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 452px;
-  padding-right: 452px;
   background-repeat: no-repeat;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/Hero.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero.jpg);
@@ -237,8 +235,11 @@ header .container {
 }
 
 .hero-tittle {
+  display: block;
   width: 696px;
   margin: 0px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 30px;
   color: #ffffff;
   font-weight: 900;
@@ -501,6 +502,11 @@ header .container {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.hover-svg:hover .icon-clients,
+.hover-svg:focus .icon-clients {
+  fill: #2196f3;
+}
+
 .icon-clients:nth-child(1) {
   width: 44.27px;
   height: 49.23px;
@@ -529,14 +535,6 @@ header .container {
 .icon-clients:nth-child(6) {
   width: 88.48px;
   height: 45.44px;
-}
-
-.hover-svg:hover .icon-clients {
-  fill: #2196f3;
-}
-
-.hover-svg:focus .icon-clients {
-  fill: #2196f3;
 }
 
 .footer-container:first-child {
